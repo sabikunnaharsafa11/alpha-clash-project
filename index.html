@@ -4,17 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- daisyui and tailwindcss  -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- css -->
+     <link rel="stylesheet" href="styles/styles.css">
 </head>
-<body>
-    <h1>sabikun naher safa</h1>
-    <h2>sabikun hanersss</h2>
-    <button onclick="submitButton()">sumbit</button>
+<body class="font-poppins">
+    <main class="min-h-screen bg-[#010313] bg-[url(images/background.png)] bg-no-repeat  bg-center">
+        <section class="home min-h-screen text-white flex justify-center items-center">
+            <div class="flex flex-col items-center gap-10">
+                <h1 class="text-8xl font-anton">Alpha Clash Pro</h1>
+                <p>Unleash Your Keyboard Kun g fu : Press " Enter" to Play </p>
+                <button class="btn btn-active btn-neutral bg-white text-black">Play Now</button>
+            </div>
+            
+        </section>
+        <section class="play-ground">
+    
+        </section>
+        <section class="score">
+         
+        </section>
+    </main>
+    
+    <!-- <h2>sabikun hanersss</h2>
+    <button onclick="submitButton()">sumbit</button> -->
 
     <script>
-        function submitButton(){
-         document.body.style.backgroundColor = 'red';
-         console.log('click')
-        }
+        // function submitButton(){
+        //  document.body.style.backgroundColor = 'red';
+        //  console.log('click')
+        // }
     </script>
 </body>
 </html>
